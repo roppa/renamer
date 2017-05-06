@@ -1,0 +1,21 @@
+{
+  "name": "renamer",
+  "version": "1.0.0",
+  "description": "Renames files from array",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "nyc --show-process-tree tape test/**/*.spec.js",
+    "dev": "watch 'npm run test:unit' test utils -d -p=/node_modules/"
+  },
+  "devDependencies": {
+    "nyc": "^10.0.0",
+    "tape": "^4.6.3",
+    "watch": "^1.0.2"
+  },
+  "author": "Mark Robson",
+  "license": "ISC"
+}

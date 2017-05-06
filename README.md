@@ -1,4 +1,4 @@
-# Match files
+# Renamer
 
 Problem:
 

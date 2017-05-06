@@ -1,7 +1,7 @@
 {
   "name": "renamer",
   "version": "1.0.0",
-  "description": "Renames files from array",
+  "description": "Renames files in a directory with contents of an array",
   "main": "index.js",
   "directories": {
     "test": "test"

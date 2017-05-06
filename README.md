@@ -6,3 +6,23 @@ Problem:
  2. We have a JSON array, with a title for each file, in order of the files in #1
  3. The title needs to be formatted as such to make it suitable for use over http
  4. The files need to be renamed, using the formatted title from #3
+
+# rename
+
+Can be run as a command line or a function call.
+
+Takes a directory path param, and an array of target files.
+
+If number of files in directory do not match the length of array, an error is thrown.
+
+
+
+# Utils
+
+## formatTitle(string)
+
+Takes a string and converts it to lowercase, replaces any non-alphanumeric to a hyphen.
+
+Example:
+
+'The Declaration of Independence 1817–1819' becomes 'the-declaration-of-independence-1817-1819'.

@@ -12,6 +12,7 @@
     "dev": "watch 'npm run test:unit' test utils -d -p=/node_modules/"
   },
   "devDependencies": {
+    "mock-fs": "^4.3.0",
     "nyc": "^10.0.0",
     "tape": "^4.6.3",
     "watch": "^1.0.2"

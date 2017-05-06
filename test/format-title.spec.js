@@ -1,6 +1,5 @@
 const test = require('tape').test;
 const formatTitle = require('../utils/format-title');
-const fs = require('fs');
 
 test('Format title function', assert => {
   assert.equals(formatTitle('TEST'), 'test', 'should return lower case');
